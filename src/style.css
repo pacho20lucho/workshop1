@@ -1,0 +1,202 @@
+body{
+
+    font-family:sans-serif;
+    width:1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.header { 
+    /* background-color: bisque; */
+    margin-bottom: 20px;
+
+}
+
+
+
+.barra-superior {
+    display:flex;
+    align-items:center;
+    height: 70px;
+
+
+}
+
+
+.titulo-principal {
+    width: 50%;
+
+}
+
+
+.navagacion {
+    width: 50%;
+
+}
+
+.menu-principal {
+    display: flex;
+    list-style: None;
+    justify-content: space-evenly;
+
+
+}
+
+.menu-principal__item >a{
+    text-decoration: none;
+
+
+}
+
+.menu-principal__item >a:hover{
+    font-size: 20px;
+    text-decoration:underline;
+
+
+}
+
+.banner__imagen {
+
+
+}
+
+.banner {
+
+
+}
+
+
+.servicios {
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+.servicios__contenedor {
+
+    margin-right:55px ;
+    text-align: justify;
+    
+
+}
+
+
+
+.titulo-noticias {
+
+    margin-top: 45px;
+
+
+}
+
+
+
+.noticias {
+
+    /* background-color: grey;  */
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    
+
+}
+
+.noticia {
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align:left;
+    margin-bottom: 25px;
+    
+}
+
+.noticia__contenedor {
+
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+   
+
+
+}
+
+
+
+.miembros {
+
+    /* background-color: orangered;  */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 35px;
+    border: 2px solid black;
+
+}
+
+.miembros__equipo {
+
+ 
+}
+
+.titulo-footer {
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+}
+
+.titulo-footer__section {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.footer {
+
+    text-align: left;
+
+   
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer__texto--1 {
+
+    margin-bottom: 5px;
+    text-align: left;
+
+
+}
+
+.footer__texto {
+
+    text-align: left;
+
+    margin-bottom: 15px;
+
+
+}
+
+.contactofed {
+
+    margin-bottom: 3px;
+
+    
+}
+
+.contactofra {
+
+    margin-top: 3px;
+}
